@@ -13,7 +13,7 @@ import static org.testng.Assert.assertTrue;
 public class RandomizeTest {
 
     @Test
-    public void a() {
+    public void shouldGenerateRandomModelObject() {
         System.out.println(new Gson().toJson(randomize(Model.class)));
 
         Field[] declaredFields = Model.class.getDeclaredFields();
