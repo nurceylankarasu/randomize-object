@@ -1,14 +1,13 @@
-package example;
+package com.example;
 
-import com.example.Model;
 import com.google.gson.Gson;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
 
 import static com.example.Randomize.randomize;
-import static org.testng.Assert.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 public class RandomizeTest {
 
